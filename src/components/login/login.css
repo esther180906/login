@@ -1,0 +1,76 @@
+.container {
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+.first  {
+    margin-bottom: 10px;
+
+}
+
+.first,
+.second {
+    width: 100%;
+    padding: 15px ;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px rgba(255, 255, 255, 0.2) solid;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px ;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #f2f2f2;
+    border: 1px rgba(255, 255, 255, 0.2) solid;
+}
+
+.recall-forget {
+    color: #f2f2f2;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.recall-forget a,
+.signup-link a {
+    text-decoration: none;
+    color: #353535;
+    font-weight: bold;
+}
+
+.signup-link {
+    color: #f2f2f2;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
